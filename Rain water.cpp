@@ -3,7 +3,7 @@ using namespace std;
 
 int water(int a[], int n)
 {
-    int left[n]; // 3 1 2 4 0 1 3 2
+    int left[n]; /// 3 1 2 4 0 1 3 2
     int right[n];
 
     left[0] = a[0];
