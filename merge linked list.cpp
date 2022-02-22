@@ -5,6 +5,7 @@ Node *SortedMerge(Node *a, Node *b)
 	/* Base cases */
 	if (a == NULL)
 		return (b);
+
 	else if (b == NULL)
 		return (a);
 
