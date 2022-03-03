@@ -5,8 +5,14 @@ template <typename T>
 
 class Graph
 {
+    map<T, list<T, >> l;
 
-    map<T, list<T, >>
+public:
+    void addEdge(int x, int y)
+    {
+        l[x].push_back(y);
+        l[y].push_back(x);
+    }
 }
 
 main()
